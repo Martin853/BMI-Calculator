@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body {
+html,
+body,
+#root {
   margin: 0;
   padding: 0;
   height: 100vh;
   font-family: 'Poppins', sans-serif;
+}
+
+.wraper {
+  height: 100%;
 }
