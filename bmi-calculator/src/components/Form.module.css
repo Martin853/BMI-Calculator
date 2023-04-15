@@ -1,7 +1,7 @@
 .container {
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -10,7 +10,7 @@
   border: 2px solid #dfbcb3;
   border-radius: 10px;
   width: 30%;
-  height: 250px;
+  height: 28%;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -59,4 +59,19 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type='number'] {
   -moz-appearance: textfield;
+}
+
+@media all and (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .form > button {
+    font-size: 0.8rem;
+  }
+
+  .form > input {
+    height: 1rem;
+    width: 100%;
+  }
 }

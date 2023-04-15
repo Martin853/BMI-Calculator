@@ -1,0 +1,30 @@
+.result {
+  width: 30%;
+  height: 28%;
+  padding: 2rem;
+  background-color: #edd2cb;
+  border: 2px solid #dfbcb3;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.result > h1 {
+  margin: 0;
+}
+
+.result > h2 {
+  margin: 0;
+}
+
+@media all and (max-width: 750px) {
+  .result > h1 {
+    font-size: 2rem;
+  }
+
+  .result > h2 {
+    font-size: 1rem;
+  }
+}
